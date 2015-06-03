@@ -15,6 +15,7 @@ if(process.argv.length < 3) {
 	    sort: 'created',
 	    order: 'asc'
     }, function(err, data) {
+      if(err) throw Error('Unable to get repository list', err);
       if(data){
         ghme.star(data.items[0].full_name);
       }
