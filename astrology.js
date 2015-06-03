@@ -10,9 +10,9 @@ if(process.argv.length < 3) {
   return console.log('Please pass access token in argument');
 }
 
-for(var i = 0; i < repository.length; i++) {
+repository.forEach(function(repo) {
   ghsearch.repos({
-    q: 'repo:' + repository[i],
+    q: 'repo:' + repo,
     sort: 'created',
     order: 'asc'
   }, function(err, data) {
@@ -20,5 +20,5 @@ for(var i = 0; i < repository.length; i++) {
     if(data){
       ghme.star(data.items[0].full_name);
     }
-  });
-}
+  })
+});
