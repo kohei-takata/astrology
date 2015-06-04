@@ -1,6 +1,6 @@
 {
   "name": "astrology",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Starring repositories each other",
   "main": "astrology.js",
   "bin": "./astrology.js",
