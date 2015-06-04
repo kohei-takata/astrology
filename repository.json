@@ -1,2 +1,15 @@
-["tako-black/astrology"
+[
+  "tako-black/astrology",
+  "moimikey/iso3166-1",
+  "moimikey/locale2",
+  "moimikey/node-xero",
+  "moimikey/awesome-devtools",
+  "moimikey/shitty-mta",
+  "Growmies/countryjs",
+  "1-liners/1-liners",
+  "stoeffel/gh-contributors-table",
+  "xyu/heroku-wp",
+  "PromyLOPh/pianobar",
+  "opal/opal",
+  "maxogden/art-of-node"
 ]
