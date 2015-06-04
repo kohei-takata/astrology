@@ -1,7 +1,7 @@
 # astrology
 Starring repositories each other
 
-# **PLEASE GIVE ME PULL REQUESTS**
+# **PLEASE GIVE ME PULL REQUESTS!**
 
 ---
 
