@@ -5,11 +5,13 @@
   "moimikey/node-xero",
   "moimikey/awesome-devtools",
   "moimikey/shitty-mta",
+  "moimikey/shitty-uber",
   "Growmies/countryjs",
   "1-liners/1-liners",
   "stoeffel/gh-contributors-table",
   "xyu/heroku-wp",
   "PromyLOPh/pianobar",
   "opal/opal",
-  "maxogden/art-of-node"
+  "maxogden/art-of-node",
+  "loadfive/Knwl.js"
 ]
