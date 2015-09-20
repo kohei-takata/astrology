@@ -1,8 +1,6 @@
 # astrology
 Starring repositories each other
 
----
-
 # USAGE
 
 1. Make a pull request to this repository that adding `owner/name` of repositories to `repository.json` which you want to be stared.
