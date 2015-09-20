@@ -1,8 +1,6 @@
 # astrology
 Starring repositories each other
 
-# **PLEASE GIVE ME PULL REQUESTS!**
-
 ---
 
 # USAGE
@@ -11,3 +9,6 @@ Starring repositories each other
 2. Get your GitHub account's access token at [here](https://github.com/settings/tokens).
 3. Run `npm install -g astrology` command.
 4. Run `astrology YOUR_ACCESS_TOKEN` command. 
+
+# License
+MIT
