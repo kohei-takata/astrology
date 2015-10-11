@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
-var github = require('octonode');
-var client = github.client(process.argv[2]);
-var ghme = client.me();
-var ghsearch = client.search();
-var repository = require('./repository.json');
+const github = require('octonode');
+const client = github.client(process.argv[2]);
+const ghme = client.me();
+const ghsearch = client.search();
+const repository = require('./repository.json');
 
 if(process.argv.length < 3) {
-  return console.log('Please pass access token in argument');
+  console.log('Please pass access token in argument');
+  process.exit(1);
 }
 
 repository.forEach(function(repo) {
