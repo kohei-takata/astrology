@@ -2,14 +2,21 @@
   "name": "astrology",
   "version": "0.0.5",
   "description": "Starring repositories each other",
-  "main": "astrology.js",
-  "bin": "./astrology.js",
+  "main": "lib/astrology.js",
+  "files": [
+    "lib"
+  ],
+  "bin": "lib/astrology.js",
   "dependencies": {
     "octonode": "^0.6.17"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib  --source-maps-inline"
+  },
+  "devDependencies": {
+    "babel": "5.8.23"
   },
   "repository": {
     "type": "git",
