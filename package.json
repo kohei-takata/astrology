@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tako-black/astrology"
+    "url": "https://github.com/kohei-takata/astrology"
   },
   "author": "Kohei TAKATA",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tako-black/astrology/issues"
+    "url": "https://github.com/kohei-takata/astrology/issues"
   },
-  "homepage": "https://github.com/tako-black/astrology"
+  "homepage": "https://github.com/kohei-takata/astrology"
 }
