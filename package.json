@@ -1,6 +1,6 @@
 {
   "name": "astrology",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Starring repositories each other",
   "main": "lib/astrology.js",
   "files": [
